@@ -1,0 +1,26 @@
+<script>
+    var output=[];
+    output[0]=1;
+ var num=prompt("enter a number");
+ for(var i=1;i<num;i++)
+ {
+     if(i%3==0 && i%5==0)
+     {
+         output.push("fizzBuzz")
+     }
+     else if(i%3==0)
+     {
+         output.push("fizz");
+     }
+     else if(i%5==0)
+     {
+         output.push("buzz");
+     }
+     else{
+         output.push(i);
+     }
+    
+ } console.log(output);
+
+ 
+</script>

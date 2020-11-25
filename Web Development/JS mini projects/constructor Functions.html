@@ -1,0 +1,27 @@
+<script>
+    var test=
+    {
+        name:"bhanuSharma",
+        age:19,
+        city:"rudrapur",
+        goal:["Entrepreneur","Bussinessman","philantharipist"],
+        dobussineess: function() {
+            alert("Bhanu is a Entrepreneur");
+        } 
+    }
+    alert(test);
+    function Test2(name,age,city,ex,friend)
+    {
+        this.name=name;
+        this.age=age;
+        this.city=city;
+        this.ex=ex;
+        this.friend=friend;
+        this.clean=function (name)
+        {
+            alert("cleaning in progress"+name);
+        }
+    }
+    var obj=new Test2("bhavnesh",19,"Rudrapur","nothing","aashu");
+    alert(obj);
+</script>

@@ -1,0 +1,195 @@
+body{
+    font-family:"Montserrat";
+    text-align: center;
+}
+#title{
+    background-color: #ff4c68;
+    
+    
+   
+}
+
+.container-fluid
+{
+    padding:3% 15%;
+}
+     
+#iphone{
+    height: 25em;
+    margin-left:60px;
+    transform: rotate(15deg);
+    position: absolute;
+    right: 30%;
+}
+
+/*Navigation bar*/
+.navbar-brand
+{
+    font-family:"Ubuntu";
+    font-weight: bold;
+    font-size: 2.5rem;
+    
+}
+
+.nav-item{
+padding:18px;
+}
+.navbar{
+    padding:0 0 4.5rem;
+
+}
+.nav-link
+{
+    font-weight:lighter;
+}
+@media (max-width:1028px)
+{
+    #iphone{
+        position:static;
+        transform: rotate(0);
+    }
+    h1{
+        text-align: center;
+    }
+}
+
+/* Heading */
+
+
+.big-heading{
+    color:white;
+    font-weight: bolder;
+    font-size: 3.5rem;
+    text-align: left;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family:Montserrat-Bold;
+} 
+
+.section-heading, .pricing-heading{
+    font-family:Montserrat-Bold;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bolder;    
+
+}
+
+ 
+
+/*download  buttons*/
+.Download{
+    margin:5% 3% 5% 0;
+}
+
+/* Feature Section*/
+.featureh3
+{
+    font-family: Montserrat-bold;
+    font-weight: bolder;
+}
+
+.ficon:hover{
+    color:#ff4c68;
+}
+
+.ficon
+{
+color:#ef8172;
+margin-bottom: 1rem;
+}
+
+#features
+{
+    padding:7% 15%;
+    background-color: beige;
+    position: relative;
+    bottom:100px;
+}
+
+ 
+
+.featurep
+{
+    color:#8f8f8f;
+}
+
+
+
+/*Testimonial section*/
+#testimonials
+{
+   
+    background-color:#ef8172;
+    color:#fff;
+    position: relative;
+    bottom:100px;
+}
+
+h2{
+    font-family:Montserrat-Bold;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bolder;
+}
+
+.testimonial-image
+{
+    width: 10%;
+    border-radius: 100%;
+    padding:20px;
+}
+ #press
+ {
+     background-color:#ef8172;
+     padding-bottom: 3%;
+     position: relative;
+     bottom:100px;
+ }
+ .press-logo
+ {
+     width:15%;
+     margin: 20px 30px 50px;
+ }
+ .carousel-item
+ {
+
+    padding:7% 15%;
+ }
+
+ /*pricing Section*/
+ #pricing
+ {
+     padding:70px;
+     position: relative;
+     bottom:100px;
+ }
+
+ .pricebutton{
+     width:78%;
+ }
+ .price-column{
+     padding:2% 3%;
+ }
+
+ /* CTA Section */
+ #cta{
+     background-color: #ff4c68;
+     padding:0% 5%;
+ }
+
+ .HeadCTA{
+     color:white;
+     font-size: 60px;
+ }
+
+ .CTAB{
+     padding:2%;
+     margin:2%;
+ }
+
+ /* Footer */
+  
+ .sicon{
+     margin:2% 2%;
+ }
+ 
